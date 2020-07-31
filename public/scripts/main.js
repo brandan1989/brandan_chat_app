@@ -30,16 +30,16 @@ function signOut() {
 
 //Initialize firebase.
 function initFirebase(){
-  const firebaseConfig = {
-    apiKey: "AIzaSyDEIlb2OOvJhl3U5hIbSTpFadMAcBbrLWo",
-    authDomain: "brandanchat.firebaseapp.com",
-    databaseURL: "https://brandanchat.firebaseio.com",
-    projectId: "brandanchat",
-    storageBucket: "brandanchat.appspot.com",
-    messagingSenderId: "949045795805",
-    appId: "1:949045795805:web:b2f78e8fe4a29391bff434",
-    measurementId: "G-TSB3KFF4Q2"
-  };
+  firebase.initializeApp( {
+    apiKey: "AIzaSyD8esLHBhxuWr9g6hOImy9ByqJv6xf8btc",
+    authDomain: "brandanchat-56c2b.firebaseapp.com",
+    databaseURL: "https://brandanchat-56c2b.firebaseio.com",
+    projectId: "brandanchat-56c2b",
+    storageBucket: "brandanchat-56c2b.appspot.com",
+    messagingSenderId: "602461176384",
+    appId: "1:602461176384:web:9ffaaa2ce94bbdad2f55a5",
+    measurementId: "G-H3TM91J3VD"
+  });
 }
 // Initiate firebase auth.
 function initFirebaseAuth() {
