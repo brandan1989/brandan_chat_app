@@ -139,7 +139,7 @@ function saveMessagingDeviceToken() {
   });
 }
 
-// Requests permissions to show notifications.
+// Requests permission to show notifications.
 function requestNotificationsPermissions() {
   console.log('Requesting notifications permission...');
   firebase.messaging().requestPermission().then(function() {
