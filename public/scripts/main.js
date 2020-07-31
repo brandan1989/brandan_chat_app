@@ -406,7 +406,6 @@ imageButtonElement.addEventListener('click', function(e) {
 mediaCaptureElement.addEventListener('change', onMediaFileSelected);
 
 
-
 initFirebaseAuth();
 
  // TODO: Enable Firebase Performance Monitoring.
